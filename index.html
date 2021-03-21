@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Algorithms.js" defer></script>
+    <script src="./Bubble.js" defer></script>
+    <script src="./Selection.js" defer></script>
+    <script src="./Insertion.js" defer></script>
+    <script src="./2Waymerge.js" defer></script>
+    <script src="./MergeSort.js" defer></script>
+    <script src="./Quick.js" defer></script>
+    <script src="./Count.js" defer></script>
+    <script src="./Heap.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="controls">
+            <button class="btn btn-new-array btn1">Generate new Array</button>
+            <button class="btn btn-bubble btn1">Bubble Sort</button>
+            <button class="btn btn-selection btn1">Selection Sort</button>
+            <button class="btn btn-insertion btn1">Insertion Sort</button>
+            <button class="btn btn-merge btn1">Merge Sort Iterative</button>
+            <button class="btn btn-merge-rec btn1">Merge Sort Recursive</button>
+            <button class="btn btn-quick btn1">Quick Sort</button>
+            <button class="btn btn-counting btn1">Count Sort</button>
+            <button class="btn btn-heap btn1">Heap Sort</button>
+        </div>
+        <div class="slider">
+            <div class="first-slider">
+                <label for="slide1" class="size">Array Size </label>
+                <input type="range" min="5" max="200" value="100" id="slide1" class="slider1 ss1">
+            </div>
+           <div class="second-slider">
+            <label for="slide2" class="timer">Speed </label>
+            <input type="range" min="2" max="100" value="10" id="slide2" class="slider2 ss2">
+           </div>
+        </div>
+    </div>
+    <div class="container"></div>
+</body>
+</html>
